@@ -1,7 +1,6 @@
 "use client"
-import React, {useContext, useEffect, useState} from "react";
+import React, {useContext} from "react";
 import Layout from "@/components/Layout";
-import CheckoutWizard from "@/components/CheckoutWizard";
 import Link from "next/link";
 import {Store} from "@/utils/Store";
 import Image from "next/image";

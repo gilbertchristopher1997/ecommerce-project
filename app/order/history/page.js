@@ -1,10 +1,9 @@
 "use client"
-import React, {useContext, useEffect, useReducer, useState} from "react";
+import React, {useContext, useEffect, useReducer} from "react";
 import Layout from "@/components/Layout";
 import {Store} from "@/utils/Store";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import {useRouter} from "next/navigation";
 
 function reducer(state, action) {
     switch (action.type) {
